@@ -1,8 +1,9 @@
+# Unit Test Cases
 require 'test/unit'
 require_relative 'game_of_thrones_house'
 
 class GameOfThronesHouseTest < Test::Unit::TestCase
-  
+
   def setup
     @house_lannister = GameOfThronesHouse.new('Lannister', 'Lion', 'Hear me roar!', 'Tywin Lannister')
   end
@@ -11,7 +12,7 @@ class GameOfThronesHouseTest < Test::Unit::TestCase
     @house_lannister = nil
   end
 
-  def test_get_details
+  def test_get_characteristics
     assert_equal 'Lannister', @house_lannister.name
     assert_equal 'Lion', @house_lannister.sigil
     assert_equal 'Hear me roar!', @house_lannister.motto
