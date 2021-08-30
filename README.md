@@ -1,5 +1,5 @@
 # GameOfThrones
-Simple Ruby Class to understand Ruby Classes
+Simple Ruby app to understand Ruby Classes
 
 **Run app**: ruby app.rb
 
