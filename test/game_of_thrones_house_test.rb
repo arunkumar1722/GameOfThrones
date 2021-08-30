@@ -1,6 +1,6 @@
 # Unit Test Cases
 require 'test/unit'
-require_relative 'game_of_thrones_house'
+require_relative '../models/game_of_thrones_house'
 
 class GameOfThronesHouseTest < Test::Unit::TestCase
 

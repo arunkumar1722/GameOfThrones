@@ -1,7 +1,7 @@
 # Main Class
-require_relative 'game_of_thrones_house'
+require_relative 'models/game_of_thrones_house'
 
-class Main
+class App
   # House Lannister
   house_lannister = GameOfThronesHouse.new('Lannister', 'Lion', 'Hear me roar!', 'Tywin Lannister')
   house_lannister.get_characteristics
